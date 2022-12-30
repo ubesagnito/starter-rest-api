@@ -4,7 +4,7 @@
   "description": "Care giving app for munis",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js",
+    "start": "node ./index.js",
     "start:prod": "node ./index.js"
   },
   "author": "",
