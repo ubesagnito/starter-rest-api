@@ -1,0 +1,29 @@
+{
+  "name": "kshata",
+  "version": "1.0.0",
+  "description": "Care giving app for munis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "start:prod": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-jwt": "^6.0.0",
+    "fs": "0.0.1-security",
+    "import-csv": "^1.0.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.22.1"
+  }
+}
